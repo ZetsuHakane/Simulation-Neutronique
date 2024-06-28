@@ -1,0 +1,21 @@
+# Include the main directory named MonteCarlo and its contents
+recursive-include MonteCarl *
+
+# Include your custom nuclear data directory
+recursive-include my_custom_nuclear_data_dir *
+
+# Include specific files or directories from openmc
+recursive-include openmc
+
+# Include all Python files (*.py) in the package
+include *.py
+
+# Include the requirements.txt file
+include requirements.txt
+
+# Include the requirements.txt file
+include MANIFEST.in
+
+# Include files from the Benchmark directory recursively
+recursive-include Benchmark *
+
