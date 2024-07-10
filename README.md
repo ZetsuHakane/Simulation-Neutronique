@@ -12,17 +12,17 @@ cd Simulation-Neutronique/
 
 2 - Deuxieme etapes telecharger OpenMc dans le dossier Simulation-Neutroniaue:
 
-chmod u+x *.py
-sudo apt-get install python3-pil.imagetk  python3-tk
-sudo apt install g++ cmake libhdf5-dev libpng-dev hdf5-helpers
-git clone --recurse-submodules https://github.com/openmc-dev/openmc.git
-cd openmc
-mkdir build && cd build
-cmake ..
-make
-sudo make install
-cd ..
-python -m pip install .
+- chmod u+x *.py
+- sudo apt-get install python3-pil.imagetk  python3-tk
+- sudo apt install g++ cmake libhdf5-dev libpng-dev hdf5-helpers
+- git clone --recurse-submodules https://github.com/openmc-dev/openmc.git
+- cd openmc
+- mkdir build && cd build
+- cmake ..
+- make
+- sudo make install
+- cd ..
+- python -m pip install .
 
 3 - Troisieme etape 
 Lancer l'applicatio via :
